@@ -75,7 +75,7 @@
       this.flickrFeed();
 
       //Carousel
-      // this.carouselSlider();
+      this.carouselSlider();
 
       //Range Slider
       this.rangeSlider();
@@ -378,55 +378,55 @@
     carouselSlider: function(){
 
       // Widget Carousel
-      $(".js_widget-carousel").owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        dots:false,
-        responsive:{
-          0:{
-              items:1
-          }
-        },
-        navText : ["<span class='dotted-link2'><i class='fa fa-chevron-left'></i> <span>Prev</span></span>","<span class='dotted-link2'><span>Next</span> <i class='fa fa-chevron-right'></i></span>"]
-      });
+      // $(".js_widget-carousel").owlCarousel({
+      //   loop:true,
+      //   margin:0,
+      //   nav:true,
+      //   dots:false,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     }
+      //   },
+      //   navText : ["<span class='dotted-link2'><i class='fa fa-chevron-left'></i> <span>Prev</span></span>","<span class='dotted-link2'><span>Next</span> <i class='fa fa-chevron-right'></i></span>"]
+      // });
 
-      // One Slider
-      $(".js_one-slide").owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        dots:false,
-        responsive:{
-          0:{
-              items:1
-          }
-        },
-        navText : ["<span class='btn btn-primary btn-single-icon'><i class='fa fa-chevron-left'></i></span>","<span class='btn btn-primary btn-single-icon'><i class='fa fa-chevron-right'></i></span>"]
-      });
+      // // One Slider
+      // $(".js_one-slide").owlCarousel({
+      //   loop:true,
+      //   margin:0,
+      //   nav:true,
+      //   dots:false,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     }
+      //   },
+      //   navText : ["<span class='btn btn-primary btn-single-icon'><i class='fa fa-chevron-left'></i></span>","<span class='btn btn-primary btn-single-icon'><i class='fa fa-chevron-right'></i></span>"]
+      // });
 
       // Team Slider
-      $(".js_team-slider").owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        dots:true,
-        responsive:{
-          0:{
-              items:1
-          },
-          768:{
-              items:1
-          },
-          992:{
-              items:2
-          },
-          1200:{
-              items:2
-          }
-        },
-        navText : ["<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>"]
-      });
+      // $(".js_team-slider").owlCarousel({
+      //   loop:true,
+      //   margin:10,
+      //   nav:true,
+      //   dots:true,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     768:{
+      //         items:1
+      //     },
+      //     992:{
+      //         items:2
+      //     },
+      //     1200:{
+      //         items:2
+      //     }
+      //   },
+      //   navText : ["<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>"]
+      // });
 
       // Logo Slider
       $(".js_logo-slider").owlCarousel({
@@ -448,57 +448,57 @@
       });
 
       // Logo Slider (autoplay)
-      $(".js_logo-slider_autoplay").owlCarousel({
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
-        loop:true,
-        margin:10,
-        nav:false,
-        dots:false,
-        responsive:{
-            0:{
-                items:2
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:2
-            }
-        }
-      });
+      // $(".js_logo-slider_autoplay").owlCarousel({
+      //   autoplay:true,
+      //   autoplayTimeout:5000,
+      //   autoplayHoverPause:true,
+      //   loop:true,
+      //   margin:10,
+      //   nav:false,
+      //   dots:false,
+      //   responsive:{
+      //       0:{
+      //           items:2
+      //       },
+      //       768:{
+      //           items:2
+      //       },
+      //       992:{
+      //           items:2
+      //       }
+      //   }
+      // });
 
       // Logo Slider (autoplay)
-      $(".js_logo-slider_autoplay_3").owlCarousel({
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
-        loop:true,
-        margin:10,
-        nav:false,
-        dots:false,
-        responsive:{
-            0:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:2
-            },
-            1200:{
-                items:3
-            }
-        }
-      });
+      // $(".js_logo-slider_autoplay_3").owlCarousel({
+      //   autoplay:true,
+      //   autoplayTimeout:5000,
+      //   autoplayHoverPause:true,
+      //   loop:true,
+      //   margin:10,
+      //   nav:false,
+      //   dots:false,
+      //   responsive:{
+      //       0:{
+      //           items:2
+      //       },
+      //       768:{
+      //           items:3
+      //       },
+      //       992:{
+      //           items:2
+      //       },
+      //       1200:{
+      //           items:3
+      //       }
+      //   }
+      // });
 
       // Pricing Slider
       $(".js_pricing-slider").owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,//true,
         dots:true,
         responsive:{
             0:{
@@ -518,89 +518,89 @@
       });
 
       // Testimonials Slider
-      $(".js_testi-slider").owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        dots:false,
-        responsive:{
-          0:{
-              items:1
-          },
-          768:{
-              items:1
-          },
-          992:{
-              items:1
-          }
-        },
-        navText: [ "<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>" ]
-      });
+      // $(".js_testi-slider").owlCarousel({
+      //   loop:true,
+      //   margin:10,
+      //   nav:true,
+      //   dots:false,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     768:{
+      //         items:1
+      //     },
+      //     992:{
+      //         items:1
+      //     }
+      //   },
+      //   navText: [ "<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>" ]
+      // });
 
       // Testimonials Slider
-      $(".js_testi-slider_autoplay").owlCarousel({
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
-        loop:true,
-        margin:10,
-        nav:true,
-        dots:false,
-        responsive:{
-          0:{
-              items:1
-          },
-          768:{
-              items:1
-          },
-          992:{
-              items:1
-          }
-        },
-        navText: [ "<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>" ]
-      });
+      // $(".js_testi-slider_autoplay").owlCarousel({
+      //   autoplay:true,
+      //   autoplayTimeout:5000,
+      //   autoplayHoverPause:true,
+      //   loop:true,
+      //   margin:10,
+      //   nav:true,
+      //   dots:false,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     768:{
+      //         items:1
+      //     },
+      //     992:{
+      //         items:1
+      //     }
+      //   },
+      //   navText: [ "<span class='link-circle'><i class='fa fa-angle-left'></i></span>","<span class='link-circle'><i class='fa fa-angle-right'></i></span>" ]
+      // });
 
       // Content Slider
-      $(".js_vertical-slider").owlCarousel({
-        loop:false,
-        margin:10,
-        nav:false,
-        dots:true,
-        responsive:{
-          0:{
-              items:1
-          },
-          768:{
-              items:2
-          },
-          992:{
-              items:1
-          }
-        }
-      });
+      // $(".js_vertical-slider").owlCarousel({
+      //   loop:false,
+      //   margin:10,
+      //   nav:false,
+      //   dots:true,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     768:{
+      //         items:2
+      //     },
+      //     992:{
+      //         items:1
+      //     }
+      //   }
+      // });
 
 
       // Content Slider (autoplay)
-      $(".js_vertical-slider_autoplay").owlCarousel({
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
-        loop:false,
-        margin:10,
-        nav:false,
-        dots:true,
-        responsive:{
-          0:{
-              items:1
-          },
-          768:{
-              items:2
-          },
-          992:{
-              items:1
-          }
-        }
-      });
+      // $(".js_vertical-slider_autoplay").owlCarousel({
+      //   autoplay:true,
+      //   autoplayTimeout:5000,
+      //   autoplayHoverPause:true,
+      //   loop:false,
+      //   margin:10,
+      //   nav:false,
+      //   dots:true,
+      //   responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     768:{
+      //         items:2
+      //     },
+      //     992:{
+      //         items:1
+      //     }
+      //   }
+      // });
 
     },
 
