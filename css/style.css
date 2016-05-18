@@ -7351,6 +7351,21 @@ img.mfp-img {
   font-family: 'Open Sans', sans-serif;
   line-height: 46px;
 }
+.tp-caption.rocket_small_white {
+  border-width: 0px;
+  border-style: none;
+  border-color: #000000;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px;
+  opacity: 0.8;
+}
 .tp-caption.rocket_or_txt {
   display: none;
   border-width: 2px;
